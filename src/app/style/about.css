@@ -1,0 +1,31 @@
+
+
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    align-items: center;
+    
+    
+
+
+}
+.s-icon{
+    
+    font-size: 22px;
+    color: red;
+    margin: 5px;
+}
+.a-icon{
+    font-size: 22px;
+    color: blue;
+    margin: 5px;
+}
+.b-icon{
+    font-size: 22px;
+    color: rgb(199, 38, 91);
+    margin: 5px;
+}
+.text-about{
+    font-weight: 250;
+}

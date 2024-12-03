@@ -1,0 +1,81 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ser-container{
+    width: 80%;
+    background-color:  rgb(211, 189, 94);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    box-shadow: 1px 4px 10px rgb(10, 10, 10);
+
+}
+.top-div-ser{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes-con{
+    width: 100%;
+    margin-top:30px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.box{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(68, 155, 170);
+    border: 2px solid rgb(187, 180, 180);
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: black;
+}
+.title-ser{
+    font-size: 30px;
+}
+.des-ser{
+    margin-top: 10px;
+    
+}
+.ser-icon{
+    font-size: 80px;
+    color: rgb(217, 219, 213)
+}
+.span-ser{
+    color: gainsboro;
+} 
+.text-ser{
+    color: #d6d6d6;
+}
+@media screen and (min-width:100px) and (max-width:750px) {
+
+    .ser-container{
+        width: 100%;
+        
+       
+    }
+    
+    
+    .top-div-ser{
+        width: 80%;
+        
+    }
+}
